@@ -75,9 +75,7 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
 $(LIBRARY): $(OBJS)
 	@mkdir -p $(DELIVERY_DIR)
 	$(CXX) $(CXXFLAGS) $(ARCH_FLAGS) -shared $^ -o $(LIBRARY_PATH).so -lstdc++ --entry main
-
 	ar rvs $(LIBRARY_PATH).a $^
-	@$(MAKE) cleanobj
 
 # Clean object files
 cleanobj:
