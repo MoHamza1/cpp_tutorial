@@ -1,6 +1,6 @@
 *.out
 *.so
 *.a
-release/*
-debug/*
-obj/*
+release*
+debug*
+obj*
