@@ -3,5 +3,12 @@
     "files.associations": {
         "iostream": "cpp",
         "string": "cpp"
-    }
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/mnt/c/dev/cpp_sample/debug/bin",
+            "binaryPath": "/mnt/c/dev/cpp_sample/debug/bin/myprogram_64",
+            "binaryArgs": []
+        }
+    ]
 }

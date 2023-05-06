@@ -3,3 +3,4 @@
 *.a
 release/*
 debug/*
+obj/*
