@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.cwd": "/mnt/c/dev/cpp_sample",
+    "files.associations": {
+        "iostream": "cpp",
+        "string": "cpp"
+    }
+}
